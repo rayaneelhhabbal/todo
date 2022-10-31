@@ -38,8 +38,8 @@ function addTodo(todo){
                         <input type="button" value="✔️" name='update' title='update task' class="update-task">
                         <input type="button" value="✏️" name='rename' title='rename task' class="rename-task">
                         <input type="button" value="❌" name='delete' title='delete task' class="del-task">
-                        <input type="checkbox" class="demo4" id="demo4">
-                        <label for="demo4"></label>                    </div>
+                         
+                    </div>
                 </div>
                 ` 
     newTasks.innerHTML += todoTask

@@ -203,7 +203,7 @@ input[type="checkbox"].demo4 {
 }
 input[type="checkbox"].demo4 + label::after { 
   content:'en cour';
-  color: orange;
+  color: or;
 }
 input[type="checkbox"].demo4 + label::before {
   content:'';
