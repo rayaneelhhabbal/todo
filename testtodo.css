@@ -84,6 +84,9 @@
   .rename-task{
     background-color: #e9adad;
   }
+  .valid:checked + #added-task{
+    background-color:#158c47
+  }
   
   
   .del-task{
