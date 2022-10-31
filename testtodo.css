@@ -198,3 +198,23 @@ height: 417px;
     background-color: #540a0a;
   }
 }
+input[type="checkbox"].demo4 {
+  display: none;
+}
+input[type="checkbox"].demo4 + label::after { 
+  content:'en cour';
+  color: orange;
+}
+input[type="checkbox"].demo4 + label::before {
+  content:'';
+  border: 1px solid #158c47;
+  padding: 0 0.6rem;
+  margin-right: 0.3rem;
+}
+input[type="checkbox"].demo4:checked + label::after { 
+  content:'FAIT';
+  color:#158c47
+}
+input[type="checkbox"].demo4:checked + label::before {
+  background-color: #158c47;
+}

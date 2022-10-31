@@ -31,13 +31,15 @@ addBtn.addEventListener('click', (e)=> {
 
 function addTodo(todo){
     let todoTask  = ` 
+                    
                 <div class="task">
-                <input class="valid" type="checkbox"> <input type="text" id="added-task" name='todo' disabled value="${todo}">
+					<input type="text" id="added-task" name='todo' disabled value="${todo}">
                     <div>
                         <input type="button" value="✔️" name='update' title='update task' class="update-task">
                         <input type="button" value="✏️" name='rename' title='rename task' class="rename-task">
                         <input type="button" value="❌" name='delete' title='delete task' class="del-task">
-                    </div>
+                        <input type="checkbox" class="demo4" id="demo4">
+                        <label for="demo4"></label>                    </div>
                 </div>
                 ` 
     newTasks.innerHTML += todoTask
@@ -51,7 +53,6 @@ function updateTodo(){
     let task  = document.querySelectorAll('.task')
 
     task.forEach((t) => {
-        
         
         t.addEventListener('click', e =>{
 
